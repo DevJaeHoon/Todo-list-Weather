@@ -1,0 +1,55 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-container {
+  /* 반응형 웹에서 높이를 꽉 채우게 만들기 위해 */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 10rem;
+  color: white;
+}
+
+.timer-content {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  /* 이미지와 색상 겹치므로 색상 "하얀색"으로 변경 */
+}
+
+.memo-input-wrapper {
+  margin: 20px;
+}
+
+.memo-title{
+  color: white;
+  text-align: center;
+}
+
+.memo {
+  font-size: 2rem;
+  color: white;
+}
+
+.modal_button{
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  /* background-image: url(./images/001-cloud.png); */
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
+
+.box {
+
+  width: 620px;
+}
